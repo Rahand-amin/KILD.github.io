@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+
+
+nav{
+    background: #20859e;
+    box-shadow: inset 0 0 18px #ffffff;
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+  }
+
+  #logo{
+
+  
+    width: 78px;
+    margin-bottom: 0.3%;
+    padding-top: 0.3%;
+    justify-content: left;
+    padding-left: 0.3%;
+    
+  }
+
+  #txt{
+      height: 100%;
+    padding-right: 3%;
+ 
+  }
+
+  #txt h1{
+     
+    align-items: center;
+    justify-content: center;
+    font-size: 195%;
+    padding-top: 0.5%;
+    font-weight:bold;
+    color: #ffffff;
+   
+    font-family:monotype-corsiva;
+  }
+
+  
+  #logo img{
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+     
+  }
+
+  section{
+    background: url(../imgs/dental-implant-and-tooth-scaled-2.webp) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  
+  footer{
+    width: 100%;
+    height:auto;
+    background-color: rgb(41, 41, 41);
+    box-shadow: inset 0 0 8px #918f8f;
+    margin-top: 0px;
+  }
+
+  #foot{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80%;
+    padding:1%;
+    color: rgb(138, 138, 138);
+  }
+
+  
+  #c2{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: inset 0px 0px 50px #0026ff;
+    margin: 2%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    width: 80%;
+    border: 13px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    text-decoration: none;
+  } 
+  
+  #c2:hover{
+   box-shadow: inset 0px 0px 0px #ffffff;
+   box-shadow: 1px 1px 50px 0px rgb(0, 0, 0);
+   transition: 0.5s;
+  }
+  
+  #c2 img{
+    width: 19%;
+    border-radius: 20px;
+  margin: 2.0%;
+  
+  }
+  
+  #c2 p{
+    font-size: 590%;
+    font-weight: bolder;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+ 
+    padding: 4.5%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+ 
+  #main{
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     padding-top: 2%;
+   }
+
+
+   
+   @media (max-width: 858px){
+
+    #logo{
+
+      width: 85px;
+      padding-top: 1.3%;
+      justify-content: left;
+      padding-left: 2%;
+    }
+
+
+
+    #txt{
+      height: 100%;
+    padding-right: 3%;
+ 
+  }
+
+
+
+  #txt h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+    padding-top: 3%;
+    font-weight:bold;
+    color: #ffffff;
+    font-family:monotype-corsiva;
+  }
+
+  
+
+
+  #main{
+    width: 100%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     padding-top: 22%;
+
+}
+
+  
+#c2{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: inset 0px 0px 30px #0026ff;
+    margin: 2%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 80%;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    text-decoration: none;
+  } 
+  
+  #c2 p{
+    font-size: 270%;
+    font-weight: bolder;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+ 
+    padding: 4.5%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+
+  }

@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+
+nav{
+    background: #999999;
+    height: 80px;
+    width: 100%;
+    box-shadow: inset 0 0 8px #00d9ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+  }
+
+  #logo{
+
+    height:88%;
+    padding-top: 0.4%;
+    justify-content: left;
+    padding-left: 0.4%;
+  }
+
+  #txt{
+      height: 100%;
+    padding-right: 3%;
+ 
+  }
+
+  #txt h1{
+     
+    align-items: center;
+    justify-content: center;
+    font-size: 195%;
+    padding-top: 0.5%;
+    font-weight:bold;
+    color: snow;
+   
+    font-family:monotype-corsiva;
+  }
+
+  
+  #logo img{
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+     
+  }
+
+
+
+  #sec1{
+
+    background: url(./imgs/industry-img-2100x1200.jpg) no-repeat;
+    background-size: cover;
+    
+
+  }
+
+
+#secmed{
+  background-color: rgb(0, 204, 255);
+  background-size: cover;
+  height: 35px;
+}
+
+
+ #sec2{
+    background: url(./imgs/f9c00da7949c25e3892986d3cb69d85f.jpg) no-repeat;
+    background-size: cover;
+    top: 0px;
+  }
+
+
+  
+  footer{
+    width: 100%;
+    height:auto;
+    background-color: rgb(41, 41, 41);
+    box-shadow: inset 0 0 8px #918f8f;
+    margin-top: 0px;
+  }
+
+
+
+  #foot{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80%;
+    padding:1%;
+    color: rgb(138, 138, 138);
+  }
+
+  
+ 
+ #topical{
+
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+padding: 3%;
+ }
+
+
+
+ #topicalpic{
+
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+padding: 3%;
+ }
+#pic2{
+
+ align-items: center;
+ justify-content: center;
+ flex: 3;
+ width: 100%;
+ height: 100%;
+border-radius: 100%;
+box-shadow: 3px 3px 50px 3px rgb(0, 225, 255);
+ margin: 1.2%;
+}
+
+#pic2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+#pic1{
+
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 15%;
+  height: 20% ;
+   margin: 1.2%;
+ }
+ 
+ #pic1 img{
+   width:60%;
+
+ }
+
+
+
+
+ #pic3{
+
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 25%;
+   margin: 1.2%;
+ }
+ 
+ #pic3 img{
+   width: 60%;
+  
+   transform: scaleX(-1);
+ }
+
+#name{
+  
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#name h1{
+  font-size: 630%;
+  font-family: monotype-corsiva;
+  font-weight: bolder;
+
+
+}
+
+
+
+ 
+ 
+  #c2{
+   align-items: center;
+   justify-content:center;
+   display: flex;
+   flex-direction: row;
+   box-shadow: inset 0px 0px 30px #ffffff;
+   margin: 2%;
+   margin-top: 14%;
+   margin-bottom: 8%;
+   width: 80%;
+   border: 8px solid rgb(0, 247, 234);
+   border-radius: 30px;
+   text-decoration: none;
+ } 
+ 
+ #c2:hover{
+  box-shadow: inset 0px 0px 0px #ffffff;
+  box-shadow: 1px 1px 20px 0px rgb(0, 0, 0);
+  transition: 0.5s;
+ }
+ 
+
+ 
+ #c2 p{
+   font-size: 590%;
+   font-weight: bolder;
+   font-family: monospace;
+   color: rgb(0, 0, 0);
+   font-style: italic;
+
+   padding: 2.5%;
+   align-items: center;
+
+ 
+ }
+
+ #main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  
+  
+  @media (max-width: 858px){
+
+    #logo{
+
+      height: 90%;
+      padding-top: 1.4%;
+      justify-content: left;
+      padding-left: 2%;
+    }
+
+
+    #txt{
+      height: 100%;
+    padding-right: 3%;
+ 
+  }
+
+  #txt h1{
+     
+    align-items: center;
+    justify-content: center;
+    font-size: 170%;
+    padding-top: 3%;
+    font-weight:bold;
+    color: snow;
+    
+    font-family:monotype-corsiva;
+  }
+
+ 
+  #c2{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: inset 0px 0px 30px #ffffff;
+    margin: 2%;
+    margin-top: 14%;
+    margin-bottom: 8%;
+    width: 80%;
+    border: 8px solid rgb(0, 247, 234);
+    border-radius: 30px;
+    text-decoration: none;
+  } 
+  
+  #c2:hover{
+   box-shadow: inset 0px 0px 0px #ffffff;
+   box-shadow: 1px 1px 20px 0px rgb(0, 0, 0);
+   transition: 0.5s;
+  }
+  
+  
+  
+  #c2 p{
+    font-size: 190%;
+    font-weight: bolder;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+ 
+    padding: 4.5%;
+    align-items: center;
+ 
+  
+  }
+ 
+  #main{
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+   
+   }
+
+
+
+
+
+
+  
+ 
+   #topical{
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  padding: 3%;
+   }
+  
+  
+  
+   #topicalpic{
+  flex: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+  padding: 0%;
+   }
+  #pic2{
+  
+   align-items: center;
+   justify-content: center;
+
+   width: 100%;
+   height: 100%;
+  border-radius: 100%;
+  box-shadow: 3px 3px 50px 3px rgb(0, 225, 255);
+   margin: 1.2%;
+  }
+  
+  #pic2 img{
+    width: cover;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  #pic1{
+  
+ display: none;
+   }
+   
+   #pic1 img{
+     width:60%;
+  
+   }
+  
+  
+  
+  
+   #pic3{
+    display: none;
+   }
+   
+   #pic3 img{
+     width: 60%;
+    
+     transform: scaleX(-1);
+   }
+  
+  #name{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #name h1{
+    font-size: 220%;
+    font-family: monotype-corsiva;
+    font-weight: bolder;
+  
+  
+  }
+  
+  
+  
+
+
+
+
+
+  }
